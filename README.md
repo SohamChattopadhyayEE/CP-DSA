@@ -6,5 +6,5 @@ This is a repository which holds solutions of various popular programming proble
 - #### [DP](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/DP)
 
 ## Codeforces
-- #### [DP](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Codeforces/dp)
+- #### [DP](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Codeforces/DP)
 ## Codechef
