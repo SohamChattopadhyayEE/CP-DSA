@@ -1,6 +1,6 @@
 /*
 Algorithm:
----------------
+-------------------------------------------------------------------------------------
 
 1. The idea is to prepare a HashMap having the 'keys' being the elements of nums2
 and corresponding 'values' being the next greater elements with the help of a stack.
@@ -14,7 +14,9 @@ pop it up. Keep doing this as long as greater element occurs or stack becomes em
 each element.
 7. Finally, return an array of length same as that of nums1 where ith element of which
 is the next grater element in nums2 of ith element of nums1 extracted from the HashMap
-filled earlier.*/
+filled earlier.
+---------------------------------------------------------------------------------------
+*/
 
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
