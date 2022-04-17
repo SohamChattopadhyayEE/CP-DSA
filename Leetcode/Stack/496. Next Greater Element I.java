@@ -1,4 +1,7 @@
-/* Algorithm:
+/*
+Algorithm:
+---------------
+
 1. The idea is to prepare a HashMap having the 'keys' being the elements of nums2
 and corresponding 'values' being the next greater elements with the help of a stack.
 2. Traverse from the end of the nums2.
