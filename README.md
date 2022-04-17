@@ -4,6 +4,7 @@ This is a repository which holds solutions of various popular programming proble
 ## Leetcode
 - #### [Binary Search Tree](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Binary%20search%20tree)
 - #### [DP](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/DP)
+- #### [LinkedList](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/LinkedList)
 - #### [Stack](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Stack)
 
 ## Codeforces
