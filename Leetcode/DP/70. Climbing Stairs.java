@@ -1,3 +1,16 @@
+/*
+The problem can be divided into smaller subproblems, i.e for 
+ith stair the number of ways it can be reached is the sum of 
+(i-1)th stair and (i-2)th stair. 
+
+Algorithm:
+1. Make a DP table with size of `n+1`.
+2. Let the base condition for 0th and 1st elements be 1.
+3. Iterate from 2 to n and iteratively fill the DP table.
+4. 
+
+*/
+
 class Solution {
     public int climbStairs(int n) {
         int[] dp = new int[n+1];
