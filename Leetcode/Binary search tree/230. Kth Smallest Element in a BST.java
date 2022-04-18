@@ -15,12 +15,13 @@
  */
 
 /*
-Solution.1:
-
+Algorithm: 
+-----------------------------------------------------------------------
 1. Perform `Inorder` traversal and fill inorder list which happens to 
 be a sorted list.
 2. Since it is 0th indexed list, return the (k-1)th element from the 
 list which is the kth smallest element.
+-----------------------------------------------------------------------
 */
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
