@@ -7,8 +7,9 @@ Algorithm:
 1. Make a DP table with size of `n+1`.
 2. Let the base condition for 0th and 1st elements be 1.
 3. Iterate from 2 to n and iteratively fill the DP table.
-4. 
-
+4. As mentioned earlier, the logic of filling the DP table is
+                dp[i] = dp[i-1]+dp[i-2]
+5. Return the nth element of the DP table.
 */
 
 class Solution {
