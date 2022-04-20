@@ -1,3 +1,28 @@
+/*
+Algorithm: 
+----------------------------------------------------------------
+The fundamental need of this problem is to have an efficient
+Data structure which keeps objects sorted and enables fast 
+insertion. Which is what is built from the scratch in this
+solution. The DS built in here is simply a binary search tree
+each node of which holds a interval (start and end dates) 
+and returns a boolean based on the fact that if insertion at 
+appropriate place is possible. The Tree is so made that each
+node of which contains complete information regarding a 
+particular interval (the start and the end dates) and points 
+towards the left and the right nodes of it. Now building up 
+the tree goes like this-
+1. If the Tree is null then bild the root node considering the 
+first input interval and return `True` since insertion is 
+possible.
+2. If the start date of the newer node is more than or equal to 
+the current node and if the right node of the current node is 
+null then place the current node as the right node of it and 
+return `True`. 
+3. If it is not null the  
+----------------------------------------------------------------
+*/
+
 class Tree{
     int start, end;
     Tree left, right;
