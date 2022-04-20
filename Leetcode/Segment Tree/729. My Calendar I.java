@@ -19,7 +19,13 @@ possible.
 the current node and if the right node of the current node is 
 null then place the current node as the right node of it and 
 return `True`. 
-3. If it is not null the  
+3. If it is not null then traverse through the Tree recursively 
+to find appropriate place where it can be inserted.
+4. Similar approach of having the left child is taken when the 
+end date is lesser than or equals to the start date of the 
+current node. 
+5. If none of the above two criterion satisfied then the 
+insertion is not possible and hence it returns `False`. 
 ----------------------------------------------------------------
 */
 
