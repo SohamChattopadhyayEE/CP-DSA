@@ -1,11 +1,19 @@
 '''
 Algoritm:
--------------------------------------------------------------------
+--------------------------------------------------------------------
 1. Initiate the DP table (say dp) with n+1 elements where n is the 
    length of string `s`. 
 2. Initiate the base condition as `True` (dp[0]=True).
-3. Iterate throught the string `s` and string `t` 
--------------------------------------------------------------------
+3. Iterate throught the strings `s` and `t` in such a way that if 
+   a character to character match occurs then that particular 
+   index of the DP table would be set to the resultant of `and` 
+   operation between `True` value and the boolean value stored
+   at the previous index of the DP table. 
+4. Increment the index of the iterator of string `s` by one and 
+   perform the same operation by iterating through string `t` from
+   the next index where the match occured. 
+5. Return the last value stored in the DP table.
+--------------------------------------------------------------------
 '''
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
