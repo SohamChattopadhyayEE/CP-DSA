@@ -1,10 +1,12 @@
 '''
 Algoritm:
------------------------------------------------------------
-1. Initiate the DP table with n+1 elements 
------------------------------------------------------------
+-------------------------------------------------------------------
+1. Initiate the DP table (say dp) with n+1 elements where n is the 
+   length of string `s`. 
+2. Initiate the base condition as `True` (dp[0]=True).
+3. Iterate throught the string `s` and string `t` 
+-------------------------------------------------------------------
 '''
-
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         dp = [False]*(len(s)+1)
