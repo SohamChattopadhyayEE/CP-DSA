@@ -1,3 +1,10 @@
+'''
+Algoritm:
+-----------------------------------------------------------
+1. Initiate the DP table with n+1 elements 
+-----------------------------------------------------------
+'''
+
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         dp = [False]*(len(s)+1)
