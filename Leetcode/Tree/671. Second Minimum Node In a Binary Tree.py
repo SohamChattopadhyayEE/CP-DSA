@@ -1,3 +1,15 @@
+'''
+Algorithm:
+----------------------------------------------------------------------------
+1. Perform PREORDER TRAVERSAL and add value of nodes in a SET.
+2. Sort the SET. 
+3. Return the second element of the set if the size of the SET is more than 
+   one.
+4. Else return -1 since no second minimum element is not found. 
+----------------------------------------------------------------------------
+'''
+
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
