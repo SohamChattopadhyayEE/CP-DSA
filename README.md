@@ -8,6 +8,7 @@ This is a repository which holds solutions of various popular programming proble
 - #### [Binary Search Tree](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Binary%20search%20tree)
 - #### [DP](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/DP)
 - #### [Design Data Structres](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Design%20Data%20Structures)
+- #### [DFS](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/DFS)
 - #### [LinkedList](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/LinkedList)
 - #### [Segment Tree](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Segment%20Tree)
 - #### [Stack](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Stack)
