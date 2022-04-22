@@ -14,6 +14,7 @@ Algorithm:
 4. If `sum` becomes more than or equal to 3, then remove that 
    event and return `False`
 5. If this does not occur then return `True`.
+--------------------------------------------------------------
 */
 
 class MyCalendarTwo {
