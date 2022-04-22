@@ -1,3 +1,17 @@
+/*
+This is a simple DFS implementation. The algorithm has been explained below.
+
+Algorithm:
+-------------------------------------------------------------------------------------
+1. Construct a bi-directional graph from the given array of edges.
+2. Perform DFS from the given `source`.
+3. Maintain a `visited` array to keep a track of visited nodes.
+4. Return `True` and get out of the recursion call once target is reached. If target
+   is not reached and all possible nodes which can be gone from the `source` node
+   are visited return `False`.
+-------------------------------------------------------------------------------------
+*/
+
 class Solution {
     Map<Integer, List<Integer>> map;
     Set<Integer> vis;
