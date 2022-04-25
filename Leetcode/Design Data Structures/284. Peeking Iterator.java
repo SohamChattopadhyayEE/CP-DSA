@@ -13,7 +13,9 @@ Algorithm:
    stored in the global pointer (next) is assigned to a local variable 
    (say curr) and set the global pointer to the next of the iterator. 
    At the end return the value stored in the local variable.
-7. 
+7. For the mothod hasNext() return if the value stored in the global 
+   pointer in null or the iterator has next value.
+---------------------------------------------------------------------------
 */
 
 
