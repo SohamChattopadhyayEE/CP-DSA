@@ -9,6 +9,7 @@ This is a repository which holds solutions of various popular programming proble
 - #### [DP](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/DP)
 - #### [Design Data Structres](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Design%20Data%20Structures)
 - #### [DFS](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/DFS)
+- #### [Graph](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Graph)
 - #### [LinkedList](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/LinkedList)
 - #### [Segment Tree](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Segment%20Tree)
 - #### [Stack](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Stack)
