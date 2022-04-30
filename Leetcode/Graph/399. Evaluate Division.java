@@ -1,3 +1,17 @@
+/*
+This is a simple problem of Bi-directional weighted graph. The algorithmm of this problem is desccribed below. 
+
+Algorithm:
+-------------------------------------------------------------------------------------------------------------------------
+1. Construct a Bi-directional weighted graph where the ith element of the array `values` (values[i]) represents the 
+   weight of the edge `a` to `b` which eventually is `a/b`.
+2. As the edge represents the above mathemitical relation, the reverse direction represents the reciprocal of the same.
+   That is, the weight of edge `a` to `b` is the reciprocal of that of `b` to `a`.
+3. 
+
+-------------------------------------------------------------------------------------------------------------------------
+*/
+
 class d_val{
     String d;
     double val;
