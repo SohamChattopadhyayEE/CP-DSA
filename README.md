@@ -3,6 +3,7 @@ This is a repository which holds solutions of various popular programming proble
 
 ## Algorithms
 - #### [Segment Tree](https://github.com/SohamChattopadhyayEE/CP-DSA/blob/main/Algorithms/SegmentTree.java)
+- #### [Kadan's Algorithm](https://github.com/SohamChattopadhyayEE/CP-DSA/blob/main/Algorithms/Kadan's%20Algorithm.py)
 
 ## Leetcode
 - #### [Binary Search Tree](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Binary%20search%20tree)
