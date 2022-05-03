@@ -1,3 +1,17 @@
+/*
+Algorithm:
+-------------------------------------------------------------
+1. Sort the array and store the sorted array into a new 
+   array (say `temp`).
+2. Start traversing by comparing elements of both the arrays
+   to find the left most point from where the unsorted 
+   subarray begins.
+3. Similarly, find the right most point too.
+4. Return the length of the subarray bounded by these points.
+-------------------------------------------------------------
+*/
+
+
 class Solution {
     public int findUnsortedSubarray(int[] nums) {
         int n = nums.length;
