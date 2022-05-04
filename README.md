@@ -14,6 +14,7 @@ This is a repository which holds solutions of various popular programming proble
 - #### [LinkedList](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/LinkedList)
 - #### [Segment Tree](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Segment%20Tree)
 - #### [Stack](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Stack)
+- #### [Two Pointers](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Two%20Pointers)
 
 ## Codeforces
 - #### [DP](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Codeforces/DP)
