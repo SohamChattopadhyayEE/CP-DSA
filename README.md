@@ -13,7 +13,9 @@ This is a repository which holds solutions of various popular programming proble
 - #### [Graph](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Graph)
 - #### [LinkedList](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/LinkedList)
 - #### [Segment Tree](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Segment%20Tree)
+- #### [Sorting](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Sorting)
 - #### [Stack](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Stack)
+- #### [Tree](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Tree)
 - #### [Two Pointers](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Two%20Pointers)
 
 ## Codeforces
