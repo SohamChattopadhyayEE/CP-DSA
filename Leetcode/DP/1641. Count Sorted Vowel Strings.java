@@ -17,6 +17,8 @@ Algorithm:
 3. Return dp[n][6].
    
 
+As a sample example of the DP table where  input n is 5 is shown 
+below -
     /----------\
     |vowels / n| ->  0   1   2   3   4   5
     \----------/
