@@ -9,9 +9,12 @@ Algorithm:
         for ith column the number of words being started with
         say jth vowel is the summation of all words of (i-1)th
         column except those who start with vowels which come
-        lexicographically before to that of the ith vowel. 
+        lexicographically before to that of the jth vowel. 
         Therefore, the dynamic relationship we have here is -
-   dp[i][j] = dp[i-1][6]-sum(dp[i-1][j-1]+dp[i-1][j-1]+...dp[i-1][0])
+   dp[i][j] = dp[i-1][6]-sum(dp[i-1][j-1]+dp[i-1][j-2]+...dp[i-1][0])
+   where dp[i-1][6] holds the total number of such words of the 
+   (i-1)th column.
+3. Return dp[n][6].
    
 
     /----------\
@@ -26,7 +29,7 @@ Algorithm:
     o                0   1   2   3   4   5
     u                0   1   1   1   1   1
     total            0   5   15  35  70  126
-
+-----------------------------------------------------------------------
 */
 
 class Solution {
