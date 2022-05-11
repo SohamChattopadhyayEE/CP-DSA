@@ -1,3 +1,18 @@
+/*
+Algorithm: 
+    vowels / n ->  0   1   2   3   4   5
+    |
+    V
+    null           0   0   0   0   0   0   
+    a              0   1   5   15  35  70
+    e              0   1   4   10  20  35
+    i              0   1   3   6   10  15
+    o              0   1   2   3   4   5
+    u              0   1   1   1   1   1
+    total          0   5   15  35  70  126
+
+*/
+
 class Solution {
     public int countVowelStrings(int n) {
         int[][] dp = new int[n+1][7];
