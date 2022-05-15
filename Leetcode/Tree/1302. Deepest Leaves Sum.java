@@ -1,3 +1,14 @@
+/*
+Algorithm:
+---------------------------------------------------------------
+A `Level Order Traversal` based approach. Simply perform
+lever order traversal throughout the tree and find the leaves
+of the last level. Store them in a list and return the sum 
+of the values of the elements of the list. 
+---------------------------------------------------------------
+*/
+
+
 class Solution {
     public int deepestLeavesSum(TreeNode root) {
         Queue<TreeNode> q = new LinkedList<>();
