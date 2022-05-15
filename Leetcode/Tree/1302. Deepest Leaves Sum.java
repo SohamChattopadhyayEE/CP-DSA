@@ -1,4 +1,5 @@
 /*
+Solution 1: Breath-First-Search (Level Order Traversal) 
 Algorithm:
 ---------------------------------------------------------------
 A `Level Order Traversal` based approach. Simply perform
@@ -35,5 +36,44 @@ class Solution {
         for(int i : res.get(res.size()-1))
             sum += i;
         return sum;
+    }
+}
+
+/*
+Solution 2: Depth-First-Search
+
+Algorithm:
+---------------------------------------------------------------
+
+---------------------------------------------------------------
+*/
+
+class obj{
+    int val, d;
+    obj(int val, int d){
+        this.val = val;
+        this.d = d;
+    }
+}
+class Solution {
+    public int deepestLeavesSum(TreeNode root) {
+        int depth = 0;
+        int max_depth = 0;
+        PriorityQueue<obj> pq = new PriorityQueue<>((a, b) -> b.d-a.d);
+        dfs(root, depth, pq);
+        int sum = 0;
+        max_depth = pq.peek().d;
+        while(!pq.isEmpty() && pq.peek().d == max_depth)
+            sum += pq.poll().val;
+        return sum;
+    }
+    public void dfs(TreeNode root, int d, PriorityQueue<obj> pq){
+        if(root.right == null && root.left == null)
+            pq.add(new obj(root.val, d));
+        
+        if(root.left != null)
+            dfs(root.left, d+1, pq);
+        if(root.right != null)
+            dfs(root.right, d+1, pq);
     }
 }
