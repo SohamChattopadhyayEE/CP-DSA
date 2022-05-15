@@ -1,5 +1,6 @@
 /*
-Solution 1: Breath-First-Search (Level Order Traversal) 
+Solution 1: Breath-First-Search (BFS) (Level Order Traversal) 
+
 Algorithm:
 ---------------------------------------------------------------
 A `Level Order Traversal` based approach. Simply perform
@@ -8,7 +9,6 @@ of the last level. Store them in a list and return the sum
 of the values of the elements of the list. 
 ---------------------------------------------------------------
 */
-
 
 class Solution {
     public int deepestLeavesSum(TreeNode root) {
@@ -40,11 +40,18 @@ class Solution {
 }
 
 /*
-Solution 2: Depth-First-Search
+Solution 2: Depth-First-Search (DFS)
 
 Algorithm:
 ---------------------------------------------------------------
-
+1. Store the value and depth of each node in an object as 
+   pairs.
+2. Perform Depth-First-Search (DFS) from the root node and 
+   store the val and depth of the leaf node in a priority 
+   queue in such a way that they are sorted based-on their
+   depths from high to low.
+3. Return the sum of the values of the leaves which have the 
+   maximum values of depth. 
 ---------------------------------------------------------------
 */
 
