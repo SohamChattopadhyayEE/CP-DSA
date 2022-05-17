@@ -7,6 +7,7 @@ This is a repository which holds solutions of various popular programming proble
 
 ## Leetcode
 - #### [BFS](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/BFS)
+- #### [Backtracking](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Backtrcking)
 - #### [Binary Search Tree](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Binary%20search%20tree)
 - #### [DP](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/DP)
 - #### [Design Data Structres](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Design%20Data%20Structures)
