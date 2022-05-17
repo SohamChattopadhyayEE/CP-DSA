@@ -6,6 +6,7 @@ This is a repository which holds solutions of various popular programming proble
 - #### [Kadan's Algorithm](https://github.com/SohamChattopadhyayEE/CP-DSA/blob/main/Algorithms/Kadan's%20Algorithm.py)
 
 ## Leetcode
+- #### [BFS](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/BFS)
 - #### [Binary Search Tree](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Binary%20search%20tree)
 - #### [DP](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/DP)
 - #### [Design Data Structres](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Design%20Data%20Structures)
