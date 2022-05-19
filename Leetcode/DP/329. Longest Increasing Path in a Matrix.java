@@ -17,19 +17,6 @@ class Solution {
     }
     public int dfs(int x, int y, int len){
         int res = 0;
-        boolean isEnd = true;
-        for(int[] dir : dirs){
-            int xn = x+dir[0];
-            int yn = y+dir[1];
-            if(isValid(xn, yn) && mat[xn][yn]>mat[x][y])
-                isEnd = isEnd && false;
-            else
-                isEnd = isEnd && true;
-        }
-        if(isEnd){
-            return len;
-        }
-        
         for(int[] dir : dirs){
             int xn = x+dir[0];
             int yn = y+dir[1];
@@ -38,7 +25,7 @@ class Solution {
                 res = Math.max(res, temp);
             }
         }
-        return res;
+        return res+1;
         
     }
     public boolean isValid(int x, int y){
