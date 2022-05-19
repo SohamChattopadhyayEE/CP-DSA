@@ -47,6 +47,10 @@ class Solution {
 /*
 Algorithm: DP
 ---------------------------------------------------------------------------------------------
+1. Have a memoizatoin table to apply top-down dynamic programming approach.
+2. During the DFS call check if the value stored in the dp table of the point at which the 
+   recursion call is being carried out, is 0. If it is not then return the value. 
+3. Otherwise, perform the recursion call and store the value to the dp table. 
 ---------------------------------------------------------------------------------------------
 */
 class Solution {
