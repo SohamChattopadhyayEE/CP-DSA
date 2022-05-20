@@ -49,14 +49,28 @@ class Solution {
 }
 
 /*
-Solution 1: Tabulation (Bottom-Up approach) - 0 ms, 30 mb
+Solution 2: Tabulation (Bottom-Up approach) - 0 ms, 30 mb
 Algorithm:
 --------------------------------------------------------------------------------
 1. Have a DP table with the base condition as if the starting point is an 
    obstacle then (0,0) of the DP table be 0.
 2. Iterate through the matrix and if at any point say (x, y), an obstacle is
-   found, make value of the DP table at that point be 0.
-3. 
+   found, make value of the DP table at that point as 0.
+3. Otherwise, following logic is to be followed for filling up the DP table-
+                if(i==0){
+                    if(j>0) {
+                        dp[i][j] = dp[i][j-1];
+                    }
+                }
+                else if(j==0){
+                    if(i>0) {
+                        dp[i][j] = dp[i-1][j];
+                    }
+                }
+                else {
+                     dp[i][j] = dp[i-1][j] + dp[i][j-1];
+                }
+ 4. Return the last element of the DP table.
 --------------------------------------------------------------------------------
 */
 class Solution {
