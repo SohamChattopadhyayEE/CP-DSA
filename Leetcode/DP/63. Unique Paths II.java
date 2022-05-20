@@ -1,3 +1,18 @@
+/*
+Solution 1: Memoization
+Algorithm:
+--------------------------------------------------------------------------------
+1. Perform DFS from the point (0,0) to find paths to the bottom right corner
+   (m-1, n-1).
+2. Have a memoization table having size same as that of the matrix,
+   as extra space to improve time performance. 
+3. During the recursion call, if the DP table contains valid value the directly 
+   returns it.
+4. Otherwise, the recursion call is performed and the resultant value is stored
+   in the DP table. 
+--------------------------------------------------------------------------------
+*/
+
 class Solution {
     int[][] dirs = {{1,0},{0,1}};
     
