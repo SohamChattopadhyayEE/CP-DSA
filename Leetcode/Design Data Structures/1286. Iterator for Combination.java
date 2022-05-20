@@ -1,3 +1,12 @@
+/*
+Algorithm:
+-------------------------------------------------------------------------------
+1. Build a Priority Queue containing all the combinations of given size of 
+   strings containing the characters from the input string such that the are 
+   automatically is sorted format.
+2. 
+*/
+
 class CombinationIterator {
     PriorityQueue<String> pq = new PriorityQueue<String>();
     String input;
