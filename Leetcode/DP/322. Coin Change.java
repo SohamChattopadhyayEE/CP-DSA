@@ -1,5 +1,5 @@
 /*
-Solution 1: Recursion
+Solution 1: Recursion - TLE (Time Limit Exceeded)
 Algorithm:
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
@@ -24,7 +24,7 @@ class Solution {
 }
 
 /*
-Solution 2: Dynamic Programming (Recursion with Memoization)
+Solution 2: Dynamic Programming (Recursion with Memoization) - Accepted (30 ms, 35 mb)
 Algorithm:
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
