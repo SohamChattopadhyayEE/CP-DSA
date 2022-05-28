@@ -1,3 +1,7 @@
+/*
+Solution 1: Time : O(nlogn), Space : O(1)
+*/
+
 class Solution {
     public int missingNumber(int[] nums) {
         Arrays.sort(nums);
