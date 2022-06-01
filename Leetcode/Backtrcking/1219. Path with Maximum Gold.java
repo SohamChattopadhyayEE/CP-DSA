@@ -1,11 +1,14 @@
 /*
 Algorithm:
-------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
 1. Perform simple `DFS` from each non-zero element of the input matrix.
 2. During each the `DFS` call, once a non-zero cell is visited mark it visited by setting the value of it as `0`.
 3. Then again perform `DFS` from that point in all four direction where non-zero element exist. 
 4. Once that call is over, `backtrack` from there by making the value of that cell again to it's previous value.
-------------------------------------------------------------------------------------------------------------------
+5. Each time keep adding the value stored in the cell to the local variable of the DFS algorithm.
+6. Keep a `global pointer` to find the max among all.
+7. Once `DFS` from all non-zero points of the matrix are over, return the `global pointer` storing the mximum value. 
+----------------------------------------------------------------------------------------------------------------------
 */
 
 class Solution {
