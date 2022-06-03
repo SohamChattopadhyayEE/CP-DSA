@@ -15,6 +15,8 @@ This is a repository which holds solutions of various popular programming proble
 - #### [DFS](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/DFS)
 - #### [Graph](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Graph)
 - #### [LinkedList](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/LinkedList)
+- #### [Others](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Others)
+- #### [Prefix sum](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Prefix%20sum)
 - #### [Segment Tree](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Segment%20Tree)
 - #### [Sorting](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Sorting)
 - #### [Stack](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Stack)
