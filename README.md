@@ -23,6 +23,8 @@ This is a repository which holds solutions of various popular programming proble
 - #### [Tree](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Tree)
 - #### [Two Pointers](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Two%20Pointers)
 
+## InreviewBit
+- #### [Graph](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/InterviewBit/Graph)
 ## Codeforces
 - #### [DP](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Codeforces/DP)
 ## Codechef
