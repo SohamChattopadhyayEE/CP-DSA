@@ -1,3 +1,15 @@
+/*
+ALgorithm:
+---------------------------------------------------------------------------------------------------
+1. Prepare a Cumulative sum matrix of same dimention as that of the input matrix where the 
+   element of which at index `(i,j)` is the sumulative sum of all elements of the input matrix
+   from `(0,0)` to `(i,j)`. This operation takes `O(mn)` time and takes place only once during the 
+   construction phase.
+2. Later when the method `sumRegion` is called, the `sum` can be returned in `O(1)` time, just by
+   performing one simple mathematical operations. 
+---------------------------------------------------------------------------------------------------
+*/
+
 class NumMatrix {
     int[][] sum;
     public NumMatrix(int[][] matrix) {
