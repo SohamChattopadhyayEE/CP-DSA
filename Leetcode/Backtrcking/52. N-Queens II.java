@@ -1,7 +1,19 @@
 /*
 Algorithm:
------------------------------------------------------------------------------------
------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
+1. Firstly create a blank chess board with no queens placed on it and a global variable say `count`
+   to calculate the number of possible solutions.
+2. The intuition is to placing queens at a particular column from `1st` row to the `nth` row.
+3. That is, in each recursive `backtracking` call (`dfs`), the row is incremented by one and 
+   the call overs when the row reaches the value `n`.
+4. In each backtracking call, the algorithm places a queen (`Q`) at every column possible and 
+   checks if by placing the queen at that column the algorithm can reach to the last leaf of
+   the state space tree. If it can then placing the `Q` at that point is valid and if not then
+   it backtracks.
+5. When the the algorithm hits the base condition, i.e. the current row becomes equal to `n`
+   then the global variable `count` is incremented by one.
+6. After the backtracking algorithm is completely exhausted, we return the variable `count`. 
+---------------------------------------------------------------------------------------------------
 */
 
 class Solution {
