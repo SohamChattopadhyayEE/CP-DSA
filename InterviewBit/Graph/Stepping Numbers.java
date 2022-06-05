@@ -1,3 +1,9 @@
+/*
+Algorithm:
+-----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+*/
+
 public class Solution {
     public ArrayList<Integer> stepnum(int A, int B) {
         ArrayList<Integer> res = new ArrayList<>();
