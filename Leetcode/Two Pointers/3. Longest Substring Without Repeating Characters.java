@@ -1,3 +1,18 @@
+/*
+Algorithm:
+-------------------------------------------------------------------------------------------------------
+1. The idea is to slide through the string with a variable window size with the given constraint of 
+   having no repeated characters. 
+2. Initiate two pointers one pointing at the 0th element of the array and another pointing to the next
+   element of the prior pointer.
+3. Perform sliding window operation within a while loop in such a way that put characters to the set
+   if the set does not have it prior and keep increasing the second pointer. If it contains a key then
+   start removing from the first pointer untill it contains the character.
+4. Maintain a variable which stores the maximum value of the size of the set.
+5. Once the while loop is over return the max pointer.
+-------------------------------------------------------------------------------------------------------
+*/
+
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int n = s.length();
