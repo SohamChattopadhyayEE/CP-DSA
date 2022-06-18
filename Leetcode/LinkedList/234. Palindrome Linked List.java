@@ -22,3 +22,39 @@ class Solution {
         return true;
     }
 }
+
+
+/*
+Solution 2 : Optimized (Accepted)
+*/
+
+class Solution {
+    public boolean isPalindrome(ListNode head) {
+        ListNode slow = head, fast = head, dummy = head;
+        while(fast.next != null && fast.next.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        slow.next = reverse(slow.next);
+        slow = slow.next;
+        
+        while(slow!=null){
+            if(dummy.val != slow.val)
+                return false;
+            dummy = dummy.next;
+            slow = slow.next;
+        }
+        return true;
+        
+    }
+    public ListNode reverse(ListNode head){
+        ListNode curr = head, prev = null, next = null;
+        while(curr != null){
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        return prev;
+    }
+}
