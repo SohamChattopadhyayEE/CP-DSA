@@ -1,5 +1,10 @@
 /*
 Solution 1 : Time Limit Exceeded
+------------------------------------------------------------------------------
+Make a string out of the linked list just by traversing through the list and
+adding each of the `node.val` in sequential manner to the string. In the later
+phase check if the string is palindrome or not. 
+------------------------------------------------------------------------------
 */
 
 class Solution {
@@ -26,6 +31,18 @@ class Solution {
 
 /*
 Solution 2 : Optimized (Accepted)
+----------------------------------------------------------------------------------
+1. Find the middle point using two pointers approach (`fast` and `slow`).
+2. When the `fast` pointer reaches to the end then the `slow` pointer reaches
+   to the mid point. 
+3. When the `slow` pointer reaches to the middle element of the list, reverse
+   the list from `slow->next`
+4. Initiate another pointer `dummy` at the head of the list.
+5. Now using the `dummy` and the `slow` pointers, keep checking if the values of
+   the nodes are same. 
+6. If 'not same' return `false`, otherwise if the traversal ends and no mismatch
+   is found then return `true`.   
+----------------------------------------------------------------------------------
 */
 
 class Solution {
