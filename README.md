@@ -18,6 +18,7 @@ This is a repository which holds solutions of various popular programming proble
 - #### [Others](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Others)
 - #### [Prefix sum](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Prefix%20sum)
 - #### [Segment Tree](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Segment%20Tree)
+- #### [Sliding window](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Sliding%20window)
 - #### [Sorting](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Sorting)
 - #### [Stack](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Stack)
 - #### [Tree](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/Tree)
