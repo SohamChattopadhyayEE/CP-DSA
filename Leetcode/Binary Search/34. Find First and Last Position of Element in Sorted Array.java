@@ -1,3 +1,14 @@
+/*
+Algorithm:
+---------------------------------------------------------------------
+1. Perform `Binary Search` to find any index holding the target
+   element.
+2. Expand from that index in both rightward and leftward directions
+   as long as the elements of the array are equal to the target.
+3. Return the right most and the left most positions. 
+---------------------------------------------------------------------
+*/
+
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int n = nums.length;
