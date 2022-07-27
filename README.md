@@ -5,6 +5,7 @@ This is a repository which holds solutions of various popular programming proble
 - #### [Kadan's Algorithm](https://github.com/SohamChattopadhyayEE/CP-DSA/blob/main/Algorithms/Kadan's%20Algorithm.py)
 - #### [Segment Tree](https://github.com/SohamChattopadhyayEE/CP-DSA/blob/main/Algorithms/SegmentTree.java)
 - #### [Tarjan's Algorithm](https://github.com/SohamChattopadhyayEE/CP-DSA/blob/main/Algorithms/Tarjan's%20Algorithm.java)
+- #### [Trie](https://github.com/SohamChattopadhyayEE/CP-DSA/blob/main/Algorithms/Trie.java)
 
 ## Leetcode
 - #### [BFS](https://github.com/SohamChattopadhyayEE/CP-DSA/tree/main/Leetcode/BFS)
