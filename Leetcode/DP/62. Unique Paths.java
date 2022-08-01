@@ -1,6 +1,6 @@
 /*
 Algorithm:
------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 1. The `Recursion with memoization` has been applied for this problem. 
 2. The idea is if a cell is visited earlier, then return the number of ways
    we can reach to the last cell from the cell `0,0` via that particular cell.
@@ -9,9 +9,10 @@ Algorithm:
    size `m x n` where the value at `ith` row and `jth` column of the table
    would be holding the number of ways the robot can visit from `0,0` to the
    last cell `m-1, n-1` via cell `i,j`.
------------------------------------------------------------------------------
+5. In this way we can avoid calculating for a particular cell again and again 
+   and efficiently deal with the `overlapping sub-problems based` problem. 
+--------------------------------------------------------------------------------
 */
-
 
 class Solution {
     int M, N;
